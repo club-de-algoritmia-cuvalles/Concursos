@@ -1,7 +1,7 @@
-#2da. semana de la informática y computación (Centro Universitario de Ciencias Exactas e Ingenierías)
+# 2da. semana de la informática y computación (Centro Universitario de Ciencias Exactas e Ingenierías)
 ___
 
-##Problem set:
+## Problem set:
 
 *A.- Vowel Count
 
