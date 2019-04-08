@@ -7,9 +7,9 @@ Bienvenido al repositorio donde los equipos del Club de Algoritmia compartirán 
 
 Aquí tendrás acceso a:
 
-*Archivos PDF de los problemas a resolver
+* Archivos PDF de los problemas a resolver
 
-*Códigos de las soluciones de los equipos
+* Códigos de las soluciones de los equipos
 
 Los ejercicios se encontraran en sus respectivas carpetas y los códigos serán identificados con el nombre del problema y nombre del equipo; dentro del código se encontrara el nombre nombre del equipo y el status del ejercicio (si fue aceptado por el juez o en caso contrario, indicar el motivo por el cual no fue aceptado).
 

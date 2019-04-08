@@ -3,26 +3,26 @@ ___
 
 ## Problem set:
 
-*A.- Vowel Count
+* A.- Vowel Count
 
-*B.- Quick Brown Fox
+* B.- Quick Brown Fox
 
-*C.- Secret Message
+* C.- Secret Message
 
-*D.- Marble Coin
+* D.- Marble Coin
 
-*E.- Toby and the frog
+* E.- Toby and the frog
 
-*F.- Flip five
+* F.- Flip five
 
-*G.- Bounty Hunter
+* G.- Bounty Hunter
 
-*H.- Karel the robot
+* H.- Karel the robot
 
-*I.- Outing
+* I.- Outing
 
-*J.- Arraging Tiles
+* J.- Arraging Tiles
 
-*K.- Divisions
+* K.- Divisions
 
-*L.- Counting Self-Rotating Subsets
+* L.- Counting Self-Rotating Subsets
