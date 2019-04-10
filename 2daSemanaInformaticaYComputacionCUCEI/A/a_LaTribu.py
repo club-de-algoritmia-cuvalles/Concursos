@@ -4,7 +4,8 @@ from sys import stdin, stdout
 
 if __name__ == "__main__":
 	vocales = {"a","e","i","o","u"}
-	INPUT = iter(stdin.read().split())
+	#INPUT = iter(stdin.read().split())
+	INPUT = stdin
 	n = next(INPUT)
 	for _ in range(int(n)):
 		palabra = next(INPUT)
@@ -12,7 +13,7 @@ if __name__ == "__main__":
 		for p in palabra:
 			if p in vocales: cont_vocales +=1
 
-		stdout.write("{}\n".format(palabra))
+		stdout.write("{}".format(palabra))
 		if cont_vocales > len(palabra)/2:
 			stdout.write("1\n".format(palabra))
 		else:
