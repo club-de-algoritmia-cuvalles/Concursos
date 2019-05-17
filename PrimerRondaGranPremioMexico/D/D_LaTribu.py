@@ -4,27 +4,25 @@ from sys import stdin, stdout
 import collections
 import heapq
 
+pesos = collections.defaultdict(int)
+
 def dijsktra(grafo, origen, final):
     rutas = []
     Ruta = collections.namedtuple('Ruta', 'peso nodo')
     for vertice in grafo[origen]:
-        heapq.heappush(rutas, Ruta(1,[vertice]))
-
+        heapq.heappush(rutas, Ruta(pesos[origen, vertice], [vertice]))
     visitados = set([origen])
-
     while True:
-        peso, path =  heapq.heappop(rutas)
+        peso, path = heapq.heappop(rutas)
         nodo = path[-1]
         if nodo in visitados:
             continue
         if nodo is final:
             return [origen]+path
-
         for v in grafo[nodo]:
-            nuevo_peso = peso + 1
+            nuevo_peso = peso + pesos[nodo, v] + 1
             new_path = path + [v]
             heapq.heappush(rutas, Ruta(nuevo_peso, new_path))
-
         visitados.add(nodo)
 
 if __name__ == '__main__':

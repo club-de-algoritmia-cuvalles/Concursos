@@ -17,7 +17,7 @@ ___
 
 * G.- Going to the world finals again
 
-* H.- Husband association
+* H.- Husbands association
 
 * I.- Inspecting PIN numbers
 
