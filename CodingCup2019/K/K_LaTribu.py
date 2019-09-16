@@ -36,3 +36,5 @@ for _ in range(int(raw_input())):
     v,c = valor_maximo(prefijo)
     print v, c
     
+from pprint import pprint
+pprint(trie)
