@@ -17,7 +17,9 @@ Los ejercicios se encontraran en sus respectivas carpetas y los códigos serán 
 
 1. 2da. semana de la informática y computación (Centro Universitario de Ciencias Exactas e Ingenierías)
 2. Coding Cup 2019
-3. Primera Ronda Gran Premio De México ACM ICPC 2019
-4. Segunda Ronda Gran Premio De México ACM ICPC 2019
+3. Primera Ronda Gran Premio De México ICPC 2019
+4. Segunda Ronda Gran Premio De México ICPC 2019
 5. 11va. Feria Académica y Cultural 2019A
-6. Tercera Ronda Gran Premio De México ACM ICPC 2019
+6. Tercera Ronda Gran Premio De México ICPC 2019
+7. Ronda de Repechaje del Gran Premio De México ICPC 2019
+8. CUValles 2019B
