@@ -1,0 +1,4 @@
+6
+car cowboy horse spinner cow tractor
+4
+car cowboy cow tractor

@@ -42,5 +42,5 @@ if __name__ == '__main__': # main del programa
     el metodo join nos deja concatenar una lista de strings, indicando un separador que los
     une"""
     print(f"Cadena numérica: {''.join(numeros)}")
-    print(f"Cadena no numérica: {''.join(numeros)}")
+    print(f"Cadena no numérica: {''.join(caracteres)}")
     print(f"La suma de la cadena numérica es: {total}")

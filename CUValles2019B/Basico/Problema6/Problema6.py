@@ -30,8 +30,8 @@ Ejemplo:
 30 7 * = 30 * 7 = 210.0
 160 40 / = 160 / 40 = 4.0
 """
-
-import operator
+# libreria con funciones de operadores (+, -, *, /)
+#import operator
 
 if __name__ == '__main__': # main del programa
     casos = int(input())
@@ -72,7 +72,7 @@ if __name__ == '__main__': # main del programa
 
         elif operador == '*':
             print(f"{x * y:.1f}")
-            
+
         elif operador == '/':
             print(f"{x / y:.1f}")
 

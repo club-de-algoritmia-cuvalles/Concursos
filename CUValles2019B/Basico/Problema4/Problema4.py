@@ -35,7 +35,7 @@ la longitud de la palabra, y este proceso a su vez se repite de manera inversa
 para formar la parte inferior. Para formar cada linea podemos considerar lo
 siguiente:
 1ra mitad
-1/2 linea = palabra[0 -> i] + (" " * i)
+1/2 linea = palabra[0 -> i] + (" " * longitud - i)
 
 Indicamos que tomaremos las letras de la posicion 0 hasta i, donde i es el renglon
 a imprimir, y le vamos a sumar la cantidad de espacios para completar la
@@ -77,6 +77,6 @@ if __name__ == '__main__': # main del programa
     Repetimos el paso anterior pero con el rango de longitud hasta 1
     """
     for i in range(longitud, 0, -1):
-        
+
         imprimir =  palabra[:i] + " " * (longitud - i)
         print(imprimir + imprimir[::-1])

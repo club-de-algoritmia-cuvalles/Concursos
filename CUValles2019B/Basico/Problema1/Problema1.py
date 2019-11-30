@@ -75,8 +75,8 @@ if __name__ == '__main__': # main del programa
             print(str(digito) * digito) # imprimimos el digito la misma cantidad
 
         else: # Si el indice es impar
-            digito -= 1
-            
+            digito -= 1 # restamos 1 al digito
+
             if digito == 0: # Si el resultado es 0, se debe de imprimir un cero
                 print(0)
 
